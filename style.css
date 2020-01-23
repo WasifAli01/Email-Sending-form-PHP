@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+  line-height: 2em;
+  text-align: left;
+}
+
+.header {
+  background: #f4f4f4;
+  border-bottom: #ccc 3px solid;
+  padding: 20px;
+}
+label {
+  color: black;
+}
+.container {
+  width: 700px;
+  margin: 30px auto;
+  background-color: #00fccf;
+  border-radius: 15px;
+  padding: 14px;
+}
+input {
+  margin: 5px;
+}
+form {
+  border: 2px solid #444444;
+  border-radius: 10px;
+}
+textarea::placeholder {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#sendBtn {
+  padding: 10px 15px;
+}
+sup {
+  color: red;
+}

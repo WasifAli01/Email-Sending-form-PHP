@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+    <title>Learning JavaScript</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Email Sending App</h1>
+      <p>By Wasif Ali</p>
+    </div>
+
+    <div class="container" id="container">
+      <form
+        method="post"
+        action="something.php"
+        name="myFrom"
+        onsubmit="return validateForm()"
+      >
+        <table>
+          <tr>
+            <h2>EMAIL FORM</h2>
+          </tr>
+          <tr>
+            <label>First Name: <sup>*</sup> </label>
+            <input type="text" name="firstName" id="firstName" />
+            <br />
+            <label>Last Name: </label>
+            <input type="text" name="lastName" id="lastName" />
+          </tr>
+          <br />
+          <tr>
+            <label>Reciever Name: <sup>*</sup> </label>
+            <input type="text" name="recieverName" id="recieverName" />
+            <br />
+            <label>Reciever Email: <sup>*</sup> </label>
+            <input type="text" name="recieverEmail" id="recieverEmail" />
+          </tr>
+          <br />
+
+          <tr>
+            <label>Subject <sup>*</sup></label>
+            <input type="text" name="subject" id="subject" />
+          </tr>
+          <br />
+          <tr>
+            <textarea
+              name="message"
+              id="message"
+              cols="43"
+              rows="10"
+              placeholder="Message..."
+            ></textarea>
+            <br />
+          </tr>
+          <tr>
+            <input type="submit" value="SEND" id="sendBtn" />
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
